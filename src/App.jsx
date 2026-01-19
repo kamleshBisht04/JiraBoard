@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import "./index.css";
 import TaskColumn from "./components/TaskColumn/TaskColumn";
-import TaskForm from "./components/taskForm/TaskForm";
+import TaskForm from "./components/TaskForm/TaskForm";
 
 function App() {
   const [tasks, setTasks] = useState(() => {
