@@ -1,0 +1,62 @@
+.taskCard_details {
+  background-color: #fffdf8;
+  border-radius: 0.6rem;
+  padding: 1rem 0.8rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  min-height: 6rem;
+  width: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(94, 197, 118);
+  /* border-left: 4px solid rgb(94, 197, 118); */
+}
+
+.taskCard_details:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2b2b2b;
+  margin-bottom: 0.8rem;
+}
+
+.card-tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card-delete-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1.2rem;
+}
+
+.delete_btn {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease-in-out;
+  padding: 0.3rem;
+}
+
+.delete_btn:hover {
+  background-color: #e8edf4;
+}

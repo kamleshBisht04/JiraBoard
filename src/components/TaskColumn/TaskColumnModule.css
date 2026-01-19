@@ -1,0 +1,27 @@
+.task_column {
+  margin: 2rem;
+  width: 22rem;
+}
+
+.task_column_heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.close_icon {
+  background-color: #fff;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: 0.6rem;
+  margin-right: 0.3rem;
+}
