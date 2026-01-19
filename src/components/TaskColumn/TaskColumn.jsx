@@ -11,7 +11,7 @@ const columnIcons = {
   "Ready for Development": todoIcon,
   "Ready for test": testing,
   "In Progress": progressIcon,
-  "Closed": doneIcon,
+  Closed: doneIcon,
 };
 
 function TaskColumn({ title, tasks, status, onDeleteTask, onSetActiveCardId, onDropCard }) {
@@ -19,9 +19,12 @@ function TaskColumn({ title, tasks, status, onDeleteTask, onSetActiveCardId, onD
 
   return (
     <section className="task_column">
-      {columnIcons[status] && <img src={columnIcons[status]} alt={status} className="close_icon" />}
-
-      <h2>{title}</h2>
+      <div className="task_header">
+        {columnIcons[status] && (
+          <img src={columnIcons[status]} alt={status} className="close_icon" />
+        )}
+        <h2>{title}</h2>
+      </div>
 
       <DropArea onDrop={() => onDropCard(status, 0)} />
 

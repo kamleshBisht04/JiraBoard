@@ -1,17 +1,14 @@
 .task_column {
-  margin: 2rem;
-  display: flex;
+  margin-top: 2rem;
+  margin-left: 3.5rem;
   justify-content: center;
   align-items: center;
 }
 
-.task_column_heading {
+.task_header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  height: 1rem;
-  margin-bottom: 1.5rem;
-  width: 20rem;
 }
 
 h2 {
