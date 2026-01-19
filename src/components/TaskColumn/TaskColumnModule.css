@@ -1,6 +1,8 @@
 .task_column {
   margin: 2rem;
-  width: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .task_column_heading {
@@ -9,6 +11,7 @@
   align-items: center;
   height: 1rem;
   margin-bottom: 1.5rem;
+  width: 20rem;
 }
 
 h2 {
@@ -22,6 +25,5 @@ h2 {
   background-color: #fff;
   height: 25px;
   border-radius: 50%;
-  margin-top: 0.6rem;
-  margin-right: 0.3rem;
+  margin-right: 0.8rem;
 }
